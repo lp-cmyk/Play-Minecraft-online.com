@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Minecraft Online</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  image-rendering: pixelated;
+  font-family: monospace;
+}
+
+body {
+  background: #2c2c2c;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+    url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH5gMVESkqVpWXfAAAABl0RVh0Q29tbWVudABDcmVhdGVkIHdpdGggR2VuZXJpY0lNRoF9WgAAABxpRE9UAAAAAgAAAAAAAAAAgAAAAIAAAACAAAAAgAARHgX/R8AAADfSURBWHBjYBgFwEvA/MrFvAKjFIA1EVgNgKxHwMZA2AsQcDAAKJeAakDkANEBsC4A4gKgCkA5AGUAeQDUArgFgE4g7gNgHlD8A5oPgHFA8A5oPwHFA8A5oPwHFAsA5oPgHlD8A5oPgHlDwAA6uGkZ8AAAAASUVORK5CYII=");
+  background-size: 64px;
+}
+
+/* 大窗口 */
+.mc-window {
+  width: 90%;
+  max-width: 700px;
+  background: #333;
+  border: 6px solid #555;
+  box-shadow: 0 0 0 6px #222, 0 0 0 12px #444;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.mc-window h1 {
+  color: #5cff5c;
+  font-size: 54px;
+  text-shadow: 6px 6px 0 #000;
+  margin-bottom: 50px;
+}
+
+/* 大按钮 */
+.play-btn {
+  display: inline-block;
+  padding: 24px 60px;
+  background: #797979;
+  color: #fff;
+  font-size: 32px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 6px solid #333;
+  box-shadow: inset -6px -6px 0 #4a4a4a, inset 6px 6px 0 #999;
+}
+
+.play-btn:active {
+  box-shadow: inset 6px 6px 0 #4a4a4a, inset -6px -6px 0 #999;
+}
+</style>
+</head>
+<body>
+
+<div class="mc-window">
+  <h1>Play online Minecraft</h1>
+  <a class="play-btn" href="https://play.mcjs.cc/1.8.8/" target="_blank">进入游戏</a>
+</div>
+
+</body>
+</html>
